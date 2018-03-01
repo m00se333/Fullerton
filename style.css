@@ -1,0 +1,99 @@
+h1{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+.pageWrapper{
+
+  height: 100%;
+  width: 100%;
+
+}
+
+.header{
+    display: flex;
+    height: 10%;
+    width: 90%;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+  
+  #title{
+    flex: 1;
+    align-self: center;
+  }
+  
+  .navigation{
+    flex: 1;
+    align-self: center;
+    display: flex;
+    flex-direction: row; 
+    width: 60%; 
+  }
+    .navItem{
+      flex: 1;
+      width: 30%;
+      display: flex;
+    }
+
+      .navItem a {
+        margin: 0 auto;
+      }
+
+    .content{
+    display: flex;
+    height: 80%;
+    width: 90%;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+        .videoWrapper{
+          display: flex;
+          flex-direction: column;
+          margin: 2% auto;
+        }
+
+            .videoTitleWrapper{
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+            }
+
+                .videoTitleWrapper h1, h2{
+                  align-self: center;
+                }
+
+        .video{
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto;
+        }
+            .video iframe {
+              align-self: center;
+            }
+
+        .textWrapper{
+          display: flex;
+          flex-direction: column;
+          margin: 0 auto 2%;
+          border: 1px solid black;
+          width: 70%;
+          height: 50%;
+          
+        }
+
+  .footer{
+    display: flex;
+    height: 10%;
+    width: 90%;
+    align-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
